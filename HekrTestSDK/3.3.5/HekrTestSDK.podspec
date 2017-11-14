@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "HekrSDK"
+  s.name         = "HekrTestSDK"
   s.version      = "3.3.5"
   s.summary      = "SDK for HEKR"
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
     #  Supports git, hg, bzr, svn and HTTP.
     #
 
-    s.source       = { :git => "https://github.com/adin283/HekrSDK.git", :branch => "master" }
+    s.source       = { :git => "https://github.com/adin283/HekrTestSDK.git", :branch => "master" }
 
     s.vendored_frameworks = 'HekrNineSDK.framework'
 
